@@ -574,6 +574,20 @@
   },
 
   {
+    "path": "androidx/exifinterface/exifinterface/1.1.0-beta01/exifinterface-1.1.0-beta01",
+    "host": "https://dl.google.com/dl/android/maven2",
+    "type": "aar",
+    "pom": {
+      "sha1": "113ca4bcf7feed9865496b8980cb92dec0d99d12",
+      "sha256": "1hxg57hchc87vzzwc7a5n7jdfa82zwycl38scds957crxap57sah"
+    },
+    "jar": {
+      "sha1": "3a3ae85030468e63b28989401fe69db581e40c82",
+      "sha256": "174rrl18rq5yrrmjcvl3chjhqs051dlf2j1fipwcgv0v737jk67w"
+    }
+  },
+
+  {
     "path": "androidx/fragment/fragment/1.0.0/fragment-1.0.0",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "aar",
@@ -1106,6 +1120,20 @@
   },
 
   {
+    "path": "androidx/transition/transition/1.2.0-rc01/transition-1.2.0-rc01",
+    "host": "https://dl.google.com/dl/android/maven2",
+    "type": "aar",
+    "pom": {
+      "sha1": "7fe296c768d13fdd86a0dcd5e15083d5b6f5290f",
+      "sha256": "1gkxz4mfa6pb5k5dz6j9hbpx1kkgp9sf33r6wcxcqg74nyn7jpd4"
+    },
+    "jar": {
+      "sha1": "40bdbe5a245edd0393b7b0e1d9dd6c446dd9008d",
+      "sha256": "1fkfzqnppj6ky7d7i42n2hjyhrlll26b5cmik85qfzqq42b1zrbj"
+    }
+  },
+
+  {
     "path": "androidx/transition/transition/1.2.0/transition-1.2.0",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "aar",
@@ -1302,20 +1330,6 @@
   },
 
   {
-    "path": "android/arch/core/common/1.1.0/common-1.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "jar",
-    "pom": {
-      "sha1": "a5bed3736b36ebb3b7c100983fd5d0e880305a6a",
-      "sha256": "0i5ywqk14h224a20vcvf929r314597zj7krl33gcnl8m1lpf5n5q"
-    },
-    "jar": {
-      "sha1": "8007981f7d7540d89cd18471b8e5dcd2b4f99167",
-      "sha256": "1zcbkc77gw64saspaw5lwl6r5pkkghxb36vscj7zz4mwjjvj8j6k"
-    }
-  },
-
-  {
     "path": "android/arch/core/common/1.1.1/common-1.1.1",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "jar",
@@ -1326,20 +1340,6 @@
     "jar": {
       "sha1": "e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95",
       "sha256": "06hm9hgzw9bn7ck0clp878yn24xh65f5ff3balzy5s9kyhr6lq9s"
-    }
-  },
-
-  {
-    "path": "android/arch/core/runtime/1.1.0/runtime-1.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "49ed9c19afbc009dbfcf17a7daad4198e28c9a7e",
-      "sha256": "170s3l8nw7cf1fqdqffblrgpg71jww1vb4mzgvzi74w3vxx72gzs"
-    },
-    "jar": {
-      "sha1": "0dabc0064464782c5014c7e8be5e93bd76466c41",
-      "sha256": "1qs5hj3ma3nj2i13majn3vnzlyq31xchakn6xqp8myxwfmshyh43"
     }
   },
 
@@ -1372,20 +1372,6 @@
   },
 
   {
-    "path": "android/arch/lifecycle/common/1.1.0/common-1.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "jar",
-    "pom": {
-      "sha1": "01d1ca8193bf2fe61614750c1e3c32b4bea135f5",
-      "sha256": "1vzj0nlkxwwghwr8a1jzbjxf0p7wg3p8dgz2yhqi0zpfaj6i81qq"
-    },
-    "jar": {
-      "sha1": "0edf3f7bfb84a7521d0599efa3b0113a0ee90f85",
-      "sha256": "01q8qc28007dqffsfhsnlg1bnbxylv7n53jxbx6xqm9jsg7k2kk1"
-    }
-  },
-
-  {
     "path": "android/arch/lifecycle/common/1.1.1/common-1.1.1",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "jar",
@@ -1396,20 +1382,6 @@
     "jar": {
       "sha1": "207a6efae6a3555e326de41f76bdadd9a239cbce",
       "sha256": "0mpz3jwbh7riw9h637aima8gss68294428znxq4rw66mxf48wdwd"
-    }
-  },
-
-  {
-    "path": "android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "9b955481cd49f9a2540e97498627d3daaaff956f",
-      "sha256": "0ch0niir5p6rl45xncqji9gd1im9f4jafqqw6205ss91l1blnna1"
-    },
-    "jar": {
-      "sha1": "d6827a080a137fa345a0ed4a438e14e5633e0032",
-      "sha256": "0sr0nmz159h33qkccd7jf0lszkfcd83z549dwz3q0nmnzzw7zr8l"
     }
   },
 
@@ -1456,20 +1428,6 @@
   },
 
   {
-    "path": "android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "57175c3b6e8acf3eee00890df352e0aa417f7cc0",
-      "sha256": "132z65g4kba11b2wxhsjgk872jn8api5zxflq10grl2xnysxmjhy"
-    },
-    "jar": {
-      "sha1": "95428e5f6bf6875a6a1125d2157c3836a1a837f5",
-      "sha256": "0biy4a682zdsjjv8c4s099zi9a3lh6n9krakcw9sbmjdja9xfkq9"
-    }
-  },
-
-  {
     "path": "android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "aar",
@@ -1480,20 +1438,6 @@
     "jar": {
       "sha1": "4286e1ae9364b485cb2ff7a370e355b7c570015b",
       "sha256": "0l75r941m4qjyalz4szrw3vi6h713m74aw9mb7napw5jq5kbxr64"
-    }
-  },
-
-  {
-    "path": "android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "6455d9c23b43dc23b57caa216e26eae3e3343922",
-      "sha256": "0cw4a1myg9fkpmz6bksj5njy2shy79q7hlpqz8wfvpaiay47c9l0"
-    },
-    "jar": {
-      "sha1": "74ee369b874da61b5b81bebd7b8df0c2577309c8",
-      "sha256": "0mr5ph6dfd8wmsdyd3i2szpwrppksrl00am4vihhd1d9bqxcj1v4"
     }
   },
 
@@ -1638,20 +1582,6 @@
   },
 
   {
-    "path": "com/android/support/animated-vector-drawable/27.1.0/animated-vector-drawable-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "359012d7abf2815fad47a7b368b6707918a0964f",
-      "sha256": "0v9lzwz7vagacqrz8h02kls66kdm1mr406k0mg2pgmwgja0336ym"
-    },
-    "jar": {
-      "sha1": "de8e39a293c7ae0bdb75306d60b40aa1a4e88d05",
-      "sha256": "0bskm6c27pzg30p49xai2fybfjw5jwq50q7yipx87l33zylv65hj"
-    }
-  },
-
-  {
     "path": "com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "aar",
@@ -1690,20 +1620,6 @@
     "jar": {
       "sha1": "2fc21de3a59a1183bead10473a551e43c6af8cef",
       "sha256": "0l8qna3ngiywqidxjpbghamv6r8p8qs0dm5745n38c6v96dc40hl"
-    }
-  },
-
-  {
-    "path": "com/android/support/appcompat-v7/27.1.0/appcompat-v7-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "57564e50039cb70a26b8b87c9bc8c562101aecd1",
-      "sha256": "0j3wh3x5bz55m5d3dzn1pzrpsmaz9hcgg33nfhhybmgawih5jh5m"
-    },
-    "jar": {
-      "sha1": "41d5bc28ca11447234a8b9ab5fb133eaa3cc7fa5",
-      "sha256": "12x9sfrx31mbx2y1fhsg0f3idr9kp7fbpzc3k1m1wqg99hn9ikdz"
     }
   },
 
@@ -1946,20 +1862,6 @@
   },
 
   {
-    "path": "com/android/support/support-annotations/27.1.0/support-annotations-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "jar",
-    "pom": {
-      "sha1": "6d9073e2877892ac198c704a9e20eef24a2f6b04",
-      "sha256": "0llkhlliwjl6vd4hg4qakack67ask82kbf0ayimcymlwaq644w9m"
-    },
-    "jar": {
-      "sha1": "39ded76b5e1ce1c5b2688e1d25cdc20ecee32007",
-      "sha256": "1kwrj8189qsbdkk6kcq05y6zrvzqi1zmwmazhjgb1ln30q19cr9k"
-    }
-  },
-
-  {
     "path": "com/android/support/support-annotations/28.0.0/support-annotations-28.0.0",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "jar",
@@ -2012,20 +1914,6 @@
     "jar": {
       "sha1": "df3dabe358f5f29b02cd3eb182f0094fd43c7d53",
       "sha256": "1k7d38wsm4y710yrp0qjk75cm42cr5gh9i6z2ghml7j2c4jxkpvh"
-    }
-  },
-
-  {
-    "path": "com/android/support/support-compat/27.1.0/support-compat-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "232b5c21f55a0b4e2a325e0e3392879c7b2b58e1",
-      "sha256": "0z6zya2c0b0lkar3n53x9l2fhyrdzbn4wlpi35x1l0lia7djc9iv"
-    },
-    "jar": {
-      "sha1": "a7eea3cb0c9f9bf5ce0f0899a9bee721ffd191e0",
-      "sha256": "0217jq31qkv2dlryi51mfm7dg7h6lhnyzd89jy9362hrihjs6sc3"
     }
   },
 
@@ -2086,20 +1974,6 @@
   },
 
   {
-    "path": "com/android/support/support-core-ui/27.1.0/support-core-ui-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "2911a40f8f086cbc34b0eaf6249b35b82917993a",
-      "sha256": "04r4bj5q58cm2l0q4ixs45m5r36i22a7ahxpmzpjic1c7q46d271"
-    },
-    "jar": {
-      "sha1": "54b6f9853ff5e53174622f3f6f7eb208aacebd56",
-      "sha256": "0sp0hr5hyga50b8xgk8208b1w2vj1hl4xk3183l7cip608rx6bgd"
-    }
-  },
-
-  {
     "path": "com/android/support/support-core-ui/28.0.0/support-core-ui-28.0.0",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "aar",
@@ -2156,20 +2030,6 @@
   },
 
   {
-    "path": "com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "1a83c651b465dbbc595cfd2386947a5c6d0c7426",
-      "sha256": "1x1x13gyy0prvjc3c6j306p6qcmb8z2zi51s4bzidl94w1zzk262"
-    },
-    "jar": {
-      "sha1": "1f21723126baf81f154326bb5f2e901cec82d03b",
-      "sha256": "19kdq4v6rx4p1kvyg9hsnp4yk4ln2lv4np6i3xzb8fzi3l9v4ya5"
-    }
-  },
-
-  {
     "path": "com/android/support/support-core-utils/28.0.0/support-core-utils-28.0.0",
     "host": "https://dl.google.com/dl/android/maven2",
     "type": "aar",
@@ -2222,20 +2082,6 @@
     "jar": {
       "sha1": "6bdb260a2a656c2ed593dcf841f1518890ee4b7a",
       "sha256": "1vfr156g55c4dk55a153d7xmnvxq8895x1n9sp38b8p479w5ka05"
-    }
-  },
-
-  {
-    "path": "com/android/support/support-fragment/27.1.0/support-fragment-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "531e097c13a83a62561f761d67a3b50bfec2a3c9",
-      "sha256": "1lvl7l4qmlyb3j5zqd33hq6j5q410rqhqk5pzdm70jdrd0iyyygw"
-    },
-    "jar": {
-      "sha1": "2db3ef0a4733b8e65977621e161d1529c0020751",
-      "sha256": "04wbcslz0an5b328wphld1z0341d20il55p6br3pljnzmw7ywpmk"
     }
   },
 
@@ -2334,20 +2180,6 @@
     "jar": {
       "sha1": "ad85b9cd7f3a8095e9d011f7467ba7f47da79724",
       "sha256": "177iqyi31q518a09xmg9m0lqhwwmc7dccjr109jljdgpj6hlw5b7"
-    }
-  },
-
-  {
-    "path": "com/android/support/support-vector-drawable/27.1.0/support-vector-drawable-27.1.0",
-    "host": "https://dl.google.com/dl/android/maven2",
-    "type": "aar",
-    "pom": {
-      "sha1": "fd58f7bb5386a55664be50b634e6173d97c4400d",
-      "sha256": "0h2zipsxg1jdng32q18ql6lksbqzb9nfkbbbk481zlk25v0xdhjf"
-    },
-    "jar": {
-      "sha1": "cbfd5d8020f0cbd4b66a09f8d21e2265a55f529b",
-      "sha256": "01nai97hncvfwf32zqfxvz1mq3r76s30kkkbf6h6ilpgj0hfk4md"
     }
   },
 
@@ -4942,16 +4774,16 @@
   },
 
   {
-    "path": "com/github/yalantis/ucrop/2.2.2-native/ucrop-2.2.2-native",
+    "path": "com/github/yalantis/ucrop/2.2.5-native/ucrop-2.2.5-native",
     "host": "https://repository.sonatype.org/content/groups/sonatype-public-grid",
     "type": "aar",
     "pom": {
-      "sha1": "02df11f4174862c446a3dc2ef14cec1cd5755c4a",
-      "sha256": "1g5qsc6zfbjg7a5vdyx7g02qnv8vswxik29rnwnw8n075vns0h21"
+      "sha1": "54e36a57a744bd8ac522da81284a6366bb6939a6",
+      "sha256": "19x239zg1bjf97zgkv6jvba1la6sn4j6b76w5rnc4kp5jlh89pql"
     },
     "jar": {
-      "sha1": "6f5312e3163bf668b0f66c3068926b700e410a8d",
-      "sha256": "0c50s95achsswsf7125k4ibr60l4m53yn5m501an2wk1658q7kx8"
+      "sha1": "34281fb5e7e7a2681b2482881fcfceba1a322b84",
+      "sha256": "0nrm55pihyq1fy6iwi21abv7wdsjdz4g9dwsrn1a3dbppwwjbkr1"
     }
   },
 
@@ -7114,20 +6946,6 @@
   },
 
   {
-    "path": "com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1",
-    "host": "https://repo.maven.apache.org/maven2",
-    "type": "jar",
-    "pom": {
-      "sha1": "fb78f48ceb52df1ca8eea576716c34c99a5890d0",
-      "sha256": "0kny2snb3ihja7pm7qh2wky8767pyrc8i3yjzncys5c327m22pap"
-    },
-    "jar": {
-      "sha1": "4d060ca3190df0eda4dc13415532a12e15ca5f11",
-      "sha256": "0h988ydigk449lcsp80jzjpn36ms4cksjl229m11vxkl7y8pzmf1"
-    }
-  },
-
-  {
     "path": "com/squareup/okhttp3/okhttp/3.12.1/okhttp-3.12.1",
     "host": "https://repo.maven.apache.org/maven2",
     "type": "jar",
@@ -7166,16 +6984,6 @@
     "jar": {
       "sha1": "c9acfd63537db1d7d21d98a7405e22449bb881d6",
       "sha256": "1kgsfb9b733xqhbm23s303h7lqmy5kgdads5k1114xb940fwlr3b"
-    }
-  },
-
-  {
-    "path": "com/squareup/okhttp3/parent/3.8.1/parent-3.8.1",
-    "host": "https://repo.maven.apache.org/maven2",
-    "type": "pom",
-    "pom": {
-      "sha1": "e81c3f3a398182176b819aa4bd2d70418a5c69f3",
-      "sha256": "0msfhnyx0wc2sqrm9l2hz017ddiq0mva3icarcl2ysbap0zp59gj"
     }
   },
 
@@ -7258,6 +7066,20 @@
     "jar": {
       "sha1": "0f06923d428f3c8e6f571043ec29a45d0cd9d2bf",
       "sha256": "006c9c20f3zacpp84j974yd458zg7g6ikb4iasq8xdbpc9lfz12d"
+    }
+  },
+
+  {
+    "path": "com/squareup/okio/okio/2.7.0-alpha.lockfree.1/okio-2.7.0-alpha.lockfree.1",
+    "host": "https://repo.maven.apache.org/maven2",
+    "type": "jar",
+    "pom": {
+      "sha1": "93f841606965109787a468e49a38c3e1031599e0",
+      "sha256": "1nnjv05r7x044ryh0dnsvib6220wqjbbxv3xxq68qjvq22yzq2nn"
+    },
+    "jar": {
+      "sha1": "a025f03782f6c1aec46c151da0c0add297010f61",
+      "sha256": "0s7k48i95qqpqixs46xibzd7gw74d1a74m5m4939crjwjz4gkn86"
     }
   },
 
