@@ -24,10 +24,7 @@
     :component [avatar]
     nil))
 
-(def descriptor [{:label "Chevron"
-                  :key   :chevron
-                  :type  :boolean}
-                 {:label   "Accessory:"
+(def descriptor [{:label   "Accessory:"
                   :key     :accessory
                   :type    :select
                   :options [{:key   :radio
@@ -65,6 +62,12 @@
                              :value "Negative"}
                             {:key   :positive
                              :value "Positive"}]}
+                 {:label "Selectable"
+                  :key   :selectable
+                  :type  :boolean}
+                 {:label "Chevron"
+                  :key   :chevron
+                  :type  :boolean}
                  {:label "Disabled:"
                   :key   :disabled
                   :type  :boolean}
@@ -79,18 +82,21 @@
   [rn/view {:style {:padding-vertical   24}}])
 
 (defn cool-preview []
-  (let [state  (reagent/atom {:title  "Title"
-                              :active false})
-        icon   (reagent/cursor state [:icon])
-        active (reagent/cursor state [:active])]
+  (let [state      (reagent/atom {:title  "Title"
+                                  :active false})
+        icon       (reagent/cursor state [:icon])
+        active     (reagent/cursor state [:active])
+        selectable (reagent/cursor state [:selectable])]
     (fn []
       [rn/view {:margin-bottom 50}
        [rn/view {:padding-horizontal 16}
         [preview/customizer state descriptor]]
        [rn/view {:padding-vertical 16}
-        [quo/list-item (merge @state
-                              {:on-press       #(swap! active not)
-                               :accessory-text "Accessory"
+        [quo/list-item (merge (dissoc @state :active :selectable)
+                              (when @selectable
+                                {:active   @active
+                                 :on-press #(swap! active not)})
+                              {:accessory-text "Accessory"
                                :icon           (icon-element @icon)})]]])))
 
 (defn preview []
